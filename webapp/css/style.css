@@ -1,0 +1,96 @@
+/* Page background */
+.Pages {
+    background-color: #fff5f5;
+}
+
+/* Header / Bar */
+.Pages .sapMBar {
+    background-color: #c62828;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Header title text */
+.Pages .sapMTitle,
+.Pages .sapMLabel,
+.Pages {
+    color: #8e0000;
+}
+
+/* Toolbar title (white for contrast) */
+.Pages .sapMBar .sapMTitle {
+    color: white;
+}
+
+/* Style the panel header bar */
+.sapMPanelHdr {
+    background-color: #c62828 !important;   
+    color: white !important;            
+    font-weight: bold !important;
+}
+
+
+/* Inputs & ComboBoxes */
+.InputFields,
+.sapMInputBase,
+.sapMMultiComboBox {
+    background-color: #fdeaea;
+    border-radius: 8px;
+    border: 1px solid #ef9a9a;
+}
+
+/* Scope to just your ComboBox */
+.LanguageSelectBox {
+    --sapField_FocusBorderColor: transparent;
+    --sapField_FocusShadow: none;
+}
+
+/* Optional: also neutralize the legacy focus style if present */
+.LanguageSelectBox .sapMInputBaseContent,
+.LanguageSelectBox .sapMInputBaseContentWrapper {
+    box-shadow: var(--sapField_FocusShadow, none) !important;
+}
+
+
+
+
+/* Buttons */
+.sapMBtnInner {
+    background-color: #c62828;
+    color: white !important;
+    border-radius: 8px;
+}
+
+.sapMBtnInner:hover {
+    color: white !important;
+    background-color: #b71c1c;
+}
+
+/* Table container */
+.sapMTable {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(198,40,40,0.15);
+}
+
+/* Table header */
+.sapMTable .sapMListHdr {
+    background-color: #fdeaea;
+    border-bottom: 1px solid #ef9a9a;
+}
+
+/* Table rows */
+.sapMLIB {
+    border-bottom: 1px solid #fdeaea;
+    color: black;
+}
+
+/* Row hover */
+.sapMLIB:hover {
+    background-color: #fff0f0;
+}
+
+.TableText {
+    color: black;
+}
+/* ObjectStatus colors stay SAP-standard (good UX) */
